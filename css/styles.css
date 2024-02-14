@@ -25,12 +25,12 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 900vh;
+  height: 90vh;
   font-family: "Courgette", sans-serif;
   overflow: scroll;
 }
 body.resize-body {
-  overflow: hidden;
+  
 }
 
 .container {
