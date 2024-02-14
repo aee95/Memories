@@ -30,7 +30,7 @@ body {
   overflow-y: scroll;
 }
 body.resize-body {
-  height: 70vh;
+  overflow-y: hidden;
 }
 
 .container {
