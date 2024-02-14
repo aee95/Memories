@@ -68,12 +68,12 @@ body.resize-body {
   position: absolute;
   content: "";
   background: rgba(68, 68, 68, 0.286);
-  width: 400px;
+  width: 300px;
   height: 400px;
   border-radius: 10px;
 }
 .container .box-large-image figure img {
-  width: 400px;
+  width: 300px;
   height: 400px;
   border-radius: 10px;
 }
