@@ -27,10 +27,10 @@ body {
   align-items: center;
   height: 900vh;
   font-family: "Courgette", sans-serif;
-  overflow-y: scroll;
+  overflow: scroll;
 }
 body.resize-body {
-  overflow-y: hidden;
+  overflow: hidden;
 }
 
 .container {
