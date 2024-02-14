@@ -1,0 +1,120 @@
+@import url("https://fonts.googleapis.com/css2?family=Courgette&family=Roboto:ital,wght@1,300&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-image: url("../img/corazon.gif");
+  background-position: center;
+  background-repeat: repeat;
+}
+
+.linea {
+  background: #550b51;
+  height: 3px;
+  width: 100%;
+  display: block;
+}
+
+.texto {
+  font-weight: bold;
+  font-family: arial;
+  padding: 3px;
+}
+
+body {
+  display: block;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  font-family: "Courgette", sans-serif;
+  overflow-y: scroll;
+}
+body.resize-body {
+  height: 70vh;
+}
+
+.container {
+  width: 90%;
+  margin: auto;
+  height: 100%;
+}
+.container h2 {
+  text-align: center;
+  padding: 15px;
+  font-size: 32px;
+  font-weight: 400;
+}
+.container .content-images {
+  margin: 20px 0;
+  gap: 30px;
+}
+.container .content-images.content-image-resize {
+  display: flex;
+}
+.container .box-large-image {
+  display: none;
+  width: 50%;
+}
+.container .box-large-image.block-imagen {
+  display: flex;
+  justify-content: center;
+  position: relative;
+  animation: anima 0.5s;
+}
+.container .box-large-image figure {
+  position: relative;
+}
+.container .box-large-image figure:hover:before {
+  position: absolute;
+  content: "";
+  background: rgba(68, 68, 68, 0.286);
+  width: 100%;
+  height: 60%;
+  border-radius: 10px;
+}
+.container .box-large-image figure img {
+  width: 100%;
+  height: 60%;
+  border-radius: 10px;
+}
+.container .box-large-image figure .close {
+  position: absolute;
+  right: 10px;
+  top: 10px;
+  cursor: pointer;
+}
+.container .box-images {
+  position: relative;
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  gap: 27px;
+}
+.container .box-images.resize-box-imagenes {
+  overflow-y: scroll;
+  height: 70vh;
+  width: 50%;
+  grid-template-columns: repeat(3, 1fr);
+}
+.container .box-images figure {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  transition: all 1s;
+  cursor: pointer;
+}
+.container .box-images figure:hover::before {
+  position: absolute;
+  content: "";
+  background-color: rgba(0, 0, 0, 0.286);
+  width: 100%;
+  height: 100%;
+  border-radius: 10px;
+}
+.container .box-images figure img {
+  width: 100%;
+  height: 100%;
+  border-radius: 10px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+/*# sourceMappingURL=styles.css.map */
