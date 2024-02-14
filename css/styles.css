@@ -91,7 +91,7 @@ body.resize-body {
 }
 .container .box-images.resize-box-imagenes {
   overflow-y: scroll;
-  height: 70vh;
+  height: 100vh;
   width: 50%;
   grid-template-columns: repeat(3, 1fr);
 }
