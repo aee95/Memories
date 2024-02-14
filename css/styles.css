@@ -68,13 +68,13 @@ body.resize-body {
   position: absolute;
   content: "";
   background: rgba(68, 68, 68, 0.286);
-  width: 300px;
-  height: 400px;
+  width: 400px;
+  height: 500px;
   border-radius: 10px;
 }
 .container .box-large-image figure img {
-  width: 300px;
-  height: 400px;
+  width: 400px;
+  height: 500px;
   border-radius: 10px;
 }
 .container .box-large-image figure .close {
