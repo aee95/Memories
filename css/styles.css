@@ -25,12 +25,12 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 100vh;
+  min-height: 100vh;
   font-family: "Courgette", sans-serif;
   overflow: scroll;
 }
 body.resize-body {
-  
+  overflow: hidden;
 }
 
 .container {
@@ -68,19 +68,19 @@ body.resize-body {
   position: absolute;
   content: "";
   background: rgba(68, 68, 68, 0.286);
-  width: 100%;
-  height: 60%;
+  width: 500px;
+  height: 500px;
   border-radius: 10px;
 }
 .container .box-large-image figure img {
-  width: 100%;
-  height: 60%;
+  width: 500px;
+  height: 500px;
   border-radius: 10px;
 }
 .container .box-large-image figure .close {
   position: absolute;
-  right: 10px;
-  top: 10px;
+  right: 25px;
+  top: 20px;
   cursor: pointer;
 }
 .container .box-images {
@@ -91,7 +91,7 @@ body.resize-body {
 }
 .container .box-images.resize-box-imagenes {
   overflow-y: scroll;
-  height: 50%;
+  height: calc(100vh - 150px);
   width: 50%;
   grid-template-columns: repeat(3, 1fr);
 }
